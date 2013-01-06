@@ -9,6 +9,13 @@ Esta é uma aplicação simples para testes do ZF2. Ela consta somente com recur
 Versões
 ------------
 - Aplicação inicial de Albuns fornecida como exemplo pelo site da Zend. (Em desenvolvimento)
+	- Getting started: A skeleton application (http://framework.zend.com/manual/2.0/en/user-guide/skeleton-application.html)[OK]
+	- Unit Testing (http://framework.zend.com/manual/2.0/en/user-guide/unit-testing.html)[OK]
+	- Modules (http://framework.zend.com/manual/2.0/en/user-guide/modules.html)[OK]
+	- Routing and controllers (http://framework.zend.com/manual/2.0/en/user-guide/routing-and-controllers.html)[OK]
+	- Database and models (http://framework.zend.com/manual/2.0/en/user-guide/database-and-models.html)
+		- Em desenvolvimento
+
 - Adicionar mais um modulo de usuários, permitindo adicionar usuarios;
 - Bloquear acesso a determinadas ACTIONS com base nos usuarios;
 - Integrar com DOCTRINE;
