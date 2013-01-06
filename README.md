@@ -13,7 +13,8 @@ Versões
 	- Unit Testing (http://framework.zend.com/manual/2.0/en/user-guide/unit-testing.html)[OK]
 	- Modules (http://framework.zend.com/manual/2.0/en/user-guide/modules.html)[OK]
 	- Routing and controllers (http://framework.zend.com/manual/2.0/en/user-guide/routing-and-controllers.html)[OK]
-	- Database and models (http://framework.zend.com/manual/2.0/en/user-guide/database-and-models.html)
+	- Database and models (http://framework.zend.com/manual/2.0/en/user-guide/database-and-models.html) [OK]
+	- Styling and Translations (http://framework.zend.com/manual/2.0/en/user-guide/styling-and-translations.html)
 		- Em desenvolvimento
 
 - Adicionar mais um modulo de usuários, permitindo adicionar usuarios;
