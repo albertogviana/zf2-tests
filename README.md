@@ -17,7 +17,10 @@ Versões
 	- Styling and Translations (http://framework.zend.com/manual/2.0/en/user-guide/styling-and-translations.html) [OK]
 	- Forms and actions (http://framework.zend.com/manual/2.0/en/user-guide/forms-and-actions.html) [OK]
 
+- Adicionado mais um modulo DISCO [OK]
+
 - Integrar com DOCTRINE;
+	- Adicionado a lib do Doctrine;
 
 - Adicionar mais um modulo de usuários, permitindo adicionar usuarios;
 - Bloquear acesso a determinadas ACTIONS com base nos usuarios;
