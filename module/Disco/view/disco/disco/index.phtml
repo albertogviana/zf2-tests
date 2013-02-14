@@ -1,0 +1,30 @@
+<?php
+// module/Disco/view/disco/disco/index.phtml:
+
+$title = 'My discos';
+$this->headTitle($title);
+?>
+<h1><?php echo $this->escapeHtml($title); ?></h1>
+<p>
+    <a href="<?php echo $this->url('disco', array('action'=>'add'));?>">Add new disco</a>
+</p>
+
+<table class="table">
+<tr>
+    <th>Title</th>
+    <th>Artist</th>
+    <th>&nbsp;</th>
+</tr>
+<?php foreach ($discos as $disco) : ?>
+<tr>
+    <td><?php echo $this->escapeHtml($disco->title);?></td>
+    <td><?php echo $this->escapeHtml($disco->artist);?></td>
+    <td>
+        <a href="<?php echo $this->url('disco',
+            array('action'=>'edit', 'id' => $disco->id));?>">Edit</a>
+        <a href="<?php echo $this->url('disco',
+            array('action'=>'delete', 'id' => $disco->id));?>">Delete</a>
+    </td>
+</tr>
+<?php endforeach; ?>
+</table>
